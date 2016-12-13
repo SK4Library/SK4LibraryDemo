@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		870446801E00E41700742A9C /* GUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8704467E1E00E41700742A9C /* GUI.storyboard */; };
+		870446821E00E4D100742A9C /* GUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870446811E00E4D100742A9C /* GUIViewController.swift */; };
+		870446841E00E63200742A9C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870446831E00E63200742A9C /* BaseViewController.swift */; };
+		870446861E00E8BC00742A9C /* KeyboardObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870446851E00E8BC00742A9C /* KeyboardObserverViewController.swift */; };
 		874288A31DFF7D0400E13B40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874288A21DFF7D0400E13B40 /* AppDelegate.swift */; };
 		874288A51DFF7D0400E13B40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874288A41DFF7D0400E13B40 /* ViewController.swift */; };
 		874288A81DFF7D0400E13B40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874288A61DFF7D0400E13B40 /* Main.storyboard */; };
@@ -14,6 +18,16 @@
 		874288AD1DFF7D0400E13B40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874288AB1DFF7D0400E13B40 /* LaunchScreen.storyboard */; };
 		874288B81DFF7D0400E13B40 /* SK4LibraryDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874288B71DFF7D0400E13B40 /* SK4LibraryDemoTests.swift */; };
 		874288C31DFF7D0400E13B40 /* SK4LibraryDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874288C21DFF7D0400E13B40 /* SK4LibraryDemoUITests.swift */; };
+		874288E01DFF81DF00E13B40 /* Core.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874288DE1DFF81DF00E13B40 /* Core.storyboard */; };
+		874288E21DFF83D700E13B40 /* CoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874288E11DFF83D700E13B40 /* CoreViewController.swift */; };
+		874288E41DFF880100E13B40 /* SegueTableAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874288E31DFF880000E13B40 /* SegueTableAdmin.swift */; };
+		874288E61DFF889B00E13B40 /* NotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874288E51DFF889B00E13B40 /* NotifyViewController.swift */; };
+		874288EA1DFFBDC700E13B40 /* PauseFlagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874288E91DFFBDC700E13B40 /* PauseFlagViewController.swift */; };
+		87B34D731E162D9600D67C29 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B34D721E162D9600D67C29 /* AlertViewController.swift */; };
+		87B34D751E164C3000D67C29 /* BorderButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B34D741E164C3000D67C29 /* BorderButtonViewController.swift */; };
+		87C24B7A1E16F9B30040D0F1 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C24B791E16F9B30040D0F1 /* ColorPickerViewController.swift */; };
+		87C24B7D1E16FDBD0040D0F1 /* SK4Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C24B7C1E16FDBD0040D0F1 /* SK4Library.framework */; };
+		87C24B7E1E16FDBD0040D0F1 /* SK4Library.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87C24B7C1E16FDBD0040D0F1 /* SK4Library.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +47,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		874288DD1DFF7D3800E13B40 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				87C24B7E1E16FDBD0040D0F1 /* SK4Library.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8704467F1E00E41700742A9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/GUI.storyboard; sourceTree = "<group>"; };
+		870446811E00E4D100742A9C /* GUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUIViewController.swift; sourceTree = "<group>"; };
+		870446831E00E63200742A9C /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		870446851E00E8BC00742A9C /* KeyboardObserverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardObserverViewController.swift; sourceTree = "<group>"; };
 		8742889F1DFF7D0400E13B40 /* SK4LibraryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SK4LibraryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		874288A21DFF7D0400E13B40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		874288A41DFF7D0400E13B40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +79,15 @@
 		874288BE1DFF7D0400E13B40 /* SK4LibraryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SK4LibraryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		874288C21DFF7D0400E13B40 /* SK4LibraryDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SK4LibraryDemoUITests.swift; sourceTree = "<group>"; };
 		874288C41DFF7D0400E13B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874288DF1DFF81DF00E13B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Core.storyboard; sourceTree = "<group>"; };
+		874288E11DFF83D700E13B40 /* CoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreViewController.swift; sourceTree = "<group>"; };
+		874288E31DFF880000E13B40 /* SegueTableAdmin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueTableAdmin.swift; sourceTree = "<group>"; };
+		874288E51DFF889B00E13B40 /* NotifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifyViewController.swift; sourceTree = "<group>"; };
+		874288E91DFFBDC700E13B40 /* PauseFlagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PauseFlagViewController.swift; sourceTree = "<group>"; };
+		87B34D721E162D9600D67C29 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		87B34D741E164C3000D67C29 /* BorderButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderButtonViewController.swift; sourceTree = "<group>"; };
+		87C24B791E16F9B30040D0F1 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		87C24B7C1E16FDBD0040D0F1 /* SK4Library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SK4Library.framework; path = Carthage/Build/iOS/SK4Library.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C24B7D1E16FDBD0040D0F1 /* SK4Library.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +119,7 @@
 		874288961DFF7D0300E13B40 = {
 			isa = PBXGroup;
 			children = (
+				87C24B7C1E16FDBD0040D0F1 /* SK4Library.framework */,
 				874288A11DFF7D0400E13B40 /* SK4LibraryDemo */,
 				874288B61DFF7D0400E13B40 /* SK4LibraryDemoTests */,
 				874288C11DFF7D0400E13B40 /* SK4LibraryDemoUITests */,
@@ -98,8 +141,12 @@
 			isa = PBXGroup;
 			children = (
 				874288A21DFF7D0400E13B40 /* AppDelegate.swift */,
-				874288A41DFF7D0400E13B40 /* ViewController.swift */,
+				874288E31DFF880000E13B40 /* SegueTableAdmin.swift */,
+				870446831E00E63200742A9C /* BaseViewController.swift */,
 				874288A61DFF7D0400E13B40 /* Main.storyboard */,
+				874288A41DFF7D0400E13B40 /* ViewController.swift */,
+				87B34D701E162C9100D67C29 /* core */,
+				87B34D711E162CBA00D67C29 /* gui */,
 				874288A91DFF7D0400E13B40 /* Assets.xcassets */,
 				874288AB1DFF7D0400E13B40 /* LaunchScreen.storyboard */,
 				874288AE1DFF7D0400E13B40 /* Info.plist */,
@@ -125,6 +172,30 @@
 			path = SK4LibraryDemoUITests;
 			sourceTree = "<group>";
 		};
+		87B34D701E162C9100D67C29 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				874288DE1DFF81DF00E13B40 /* Core.storyboard */,
+				874288E11DFF83D700E13B40 /* CoreViewController.swift */,
+				874288E51DFF889B00E13B40 /* NotifyViewController.swift */,
+				874288E91DFFBDC700E13B40 /* PauseFlagViewController.swift */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		87B34D711E162CBA00D67C29 /* gui */ = {
+			isa = PBXGroup;
+			children = (
+				8704467E1E00E41700742A9C /* GUI.storyboard */,
+				870446811E00E4D100742A9C /* GUIViewController.swift */,
+				87B34D721E162D9600D67C29 /* AlertViewController.swift */,
+				87B34D741E164C3000D67C29 /* BorderButtonViewController.swift */,
+				87C24B791E16F9B30040D0F1 /* ColorPickerViewController.swift */,
+				870446851E00E8BC00742A9C /* KeyboardObserverViewController.swift */,
+			);
+			name = gui;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +206,7 @@
 				8742889B1DFF7D0400E13B40 /* Sources */,
 				8742889C1DFF7D0400E13B40 /* Frameworks */,
 				8742889D1DFF7D0400E13B40 /* Resources */,
+				874288DD1DFF7D3800E13B40 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,8 +308,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				874288AD1DFF7D0400E13B40 /* LaunchScreen.storyboard in Resources */,
+				870446801E00E41700742A9C /* GUI.storyboard in Resources */,
 				874288AA1DFF7D0400E13B40 /* Assets.xcassets in Resources */,
 				874288A81DFF7D0400E13B40 /* Main.storyboard in Resources */,
+				874288E01DFF81DF00E13B40 /* Core.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +336,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87B34D751E164C3000D67C29 /* BorderButtonViewController.swift in Sources */,
 				874288A51DFF7D0400E13B40 /* ViewController.swift in Sources */,
+				87C24B7A1E16F9B30040D0F1 /* ColorPickerViewController.swift in Sources */,
+				874288E61DFF889B00E13B40 /* NotifyViewController.swift in Sources */,
+				870446821E00E4D100742A9C /* GUIViewController.swift in Sources */,
+				87B34D731E162D9600D67C29 /* AlertViewController.swift in Sources */,
 				874288A31DFF7D0400E13B40 /* AppDelegate.swift in Sources */,
+				874288E41DFF880100E13B40 /* SegueTableAdmin.swift in Sources */,
+				870446841E00E63200742A9C /* BaseViewController.swift in Sources */,
+				870446861E00E8BC00742A9C /* KeyboardObserverViewController.swift in Sources */,
+				874288E21DFF83D700E13B40 /* CoreViewController.swift in Sources */,
+				874288EA1DFFBDC700E13B40 /* PauseFlagViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +383,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		8704467E1E00E41700742A9C /* GUI.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8704467F1E00E41700742A9C /* Base */,
+			);
+			name = GUI.storyboard;
+			sourceTree = "<group>";
+		};
 		874288A61DFF7D0400E13B40 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -313,6 +405,14 @@
 				874288AC1DFF7D0400E13B40 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		874288DE1DFF81DF00E13B40 /* Core.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874288DF1DFF81DF00E13B40 /* Base */,
+			);
+			name = Core.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -414,8 +514,13 @@
 		874288C81DFF7D0400E13B40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 37RZ8UJ54G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SK4LibraryDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.see-ku.SK4LibraryDemo";
@@ -427,8 +532,13 @@
 		874288C91DFF7D0400E13B40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 37RZ8UJ54G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SK4LibraryDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.see-ku.SK4LibraryDemo";
@@ -514,6 +624,7 @@
 				874288C91DFF7D0400E13B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		874288CA1DFF7D0400E13B40 /* Build configuration list for PBXNativeTarget "SK4LibraryDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +633,7 @@
 				874288CC1DFF7D0400E13B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		874288CD1DFF7D0400E13B40 /* Build configuration list for PBXNativeTarget "SK4LibraryDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +642,7 @@
 				874288CF1DFF7D0400E13B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

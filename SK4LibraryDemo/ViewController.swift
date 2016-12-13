@@ -8,11 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: BaseViewController {
+
+	@IBOutlet weak var tableView: UITableView!
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+
+		let nameArray = [
+			"Core",
+			"GUI"
+		]
+
+		setup(tableView: tableView, nameArray: nameArray)
 	}
 
 	override func didReceiveMemoryWarning() {
@@ -20,6 +28,6 @@ class ViewController: UIViewController {
 		// Dispose of any resources that can be recreated.
 	}
 
-
 }
 
+// eof
